@@ -9,9 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends BasePage {
 
-//    @FindBy(xpath = "//button[contains(text(),'\"Log In and Borrow\"')]")
-//    WebElement loginAndBorrowBtn;
-
     @FindBy(xpath = "//input[@type='email']")
     WebElement emailTextbox;
 
